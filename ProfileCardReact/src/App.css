@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+  }
+
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  h2{
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+
+  h3{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight:300;
+    font-size: 18px;
+  }
+
+  h6{
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+  }
+
+
+  .Card-Container{
+    background-color: #353b48;
+    color: #b3b8cd;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    padding-top: 30px;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .pro{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+  }
+
+  .online{
+    background-color: green;
+  }
+  .offline{
+    background-color: red;
+  }
+
+  .img{
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 50%;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  button.primary{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    color:white;
+    font-family: "Andika", sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+  }
+
+  button.primary.outline{
+    background-color: transparent;
+  }
+
+  .skills{
+    background-color: #2f3640;
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skills ul li{
+    border: 1px solid grey ;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+  }
+
+.lang{
+text-align: left;
+padding: 15px;
+}
+
+.lang ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+}
+
+.lang li{
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 7px;
+    
+    width: 80px;
+    text-align: center;
+}
