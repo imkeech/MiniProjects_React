@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Andika", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    border: 1px solid white;
+    padding: 10px;
+    width: 500px;
+    margin: 50px auto;
+    height: 90vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #FF4545;
+}
+
+.QRimage{
+    padding: 5px;
+    box-shadow: 0 0 10px #212121;
+}
+
+.labell{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color:#FF4545;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #FF4545;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus{
+    outline: none;
+}
+
+
+button{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.Generate{
+    background-color: #FF4545;
+}
+
+.Generate:hover{
+    background-color: #c72f2f;
+}
+
+.Generate:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.Download{
+    background-color: #27ae60;
+    margin-left: 10px;
+}
+
+.Download:hover{
+    background-color: #219a52;
+}
