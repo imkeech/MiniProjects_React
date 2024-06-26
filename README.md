@@ -1,5 +1,5 @@
 <img align="center" src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" width="120" alt="React Icons">
-<h2>Steps to Create a React File </h2>
+<h2>Steps to Create a React Project </h2>
 <h5>Go to terminal</h5>
 
 1) **Install Vite**
